@@ -71,9 +71,99 @@ body {
   text-decoration: none;
 }
 
+.main-block {
+  padding: 150px 0 200px;
+  background: url("../img/main-pic.jpg") 50% 0 / cover no-repeat;
+  text-align: center;
+  color: #fff;
+}
 
+.main-title {
+  font-size: 48px;
+  line-height: 1.1;
+}
 
+.main-title span {
+  font-size: 30px;
+  display: block;
+}
 
+.btn2 {
+  background: #f8cd53;
+  color: #fff;
+  font-size: 23px;
+  font-weight: bold;
+  border: 0;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border-radius: 7px;
+}
+
+.approach {
+  padding: 80px 0 50px;
+  background: #f3f3f3;
+}
+
+.title-block {
+  color: #424242;
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+.description {
+  color: #424242;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+.steps-block {
+  background: #fff;
+}
+
+.step1 {
+  padding: 0 20px 30px 0;
+}
+
+.step1 img {
+  float: left;
+}
+
+.step2 img {
+  float: right;
+}
+
+.step2 {
+  padding: 0 0 30px 20px;
+}
+
+.step1 .step-info {
+  padding: 30px 0 0 400px;
+}
+
+.step2 .step-info {
+  padding: 30px 400px 0 0;
+  text-align: right;
+}
+
+.step-title {
+  font-size: 18px;
+  color: #424242;
+}
+
+.footer {
+  background: #515151;
+  padding: 25px 0;
+  text-align: right;
+}
+
+.footer-text {
+  color: #cecece;
+  font-size: 14px;
+  padding-right: 35px;
+}
 
 
 
