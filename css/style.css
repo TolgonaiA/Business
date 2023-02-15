@@ -99,6 +99,48 @@ body {
   border-radius: 7px;
 }
 
+.about {
+  padding: 50px 0 70px;
+}
+
+.about-block {
+  max-width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+
+.about-block-link {
+  text-decoration: none;
+  display: block;
+  color: #424242;
+  font-size: 22px;
+  padding-top: 100px;
+}
+
+.link-1{
+  background: url("../img/ic-hand.png") no-repeat top center;
+}
+
+.link-2{
+  background: url("../img/ic-book.png") no-repeat top center;
+}
+
+.link-3{
+  background: url("../img/ic-comment.png") no-repeat top center;
+}
+
+.about-block-link h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.about-block p {
+  margin: 8px auto 0;
+  padding: 10px 0 0 0;
+  max-width: 70%;
+  line-height: 2;
+}
+
 .approach {
   padding: 80px 0 50px;
   background: #f3f3f3;
@@ -165,6 +207,133 @@ body {
   padding-right: 35px;
 }
 
+.btn {
+  display: none;
+  cursor: pointer;
+}
+
+
+.btn span {
+  width: 30px;
+  display: block;
+  border-bottom: 2px solid #de2b24;
+}
+
+.btn span::before {
+  content: '';
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #de2b24;
+  margin-bottom: 7px;
+}
+.btn span::after {
+  content: '';
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #de2b24;
+  margin-bottom: 7px;
+}
+
+
+.btn-media {
+  display: block;
+  max-width: 30px;
+  margin: 7px auto 10px 10px;
+  padding-top: 10px;
+}
+
+.main-nav-media {
+  display: none;
+  position: relative;
+}
+
+.main-nav-media-show{
+  display: block;
+  position: absolute;
+  top: 110px;
+  left: 0;
+  background: #de2b24;
+  padding: 10px;
+}
+
+
+
+.main-nav-media-show ul li {
+  display: block;
+  text-align: left;
+}
+
+.main-nav-media-show ul li a {
+  margin-left: 0;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    font-size: 30px;
+    background: url("../img/logo.png") no-repeat 0 0;
+  }
+
+  .about-block {
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+  }
+
+  .about-block p {
+    display: block;
+    margin: 25px auto;
+    width: 90%;
+  }
+
+
+}
+
+@media only screen and (max-width: 770px) {
+  .step1 img {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .step2 img {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .step2 {
+    padding: 0 0 30px 0;
+  }
+
+  .step1 .step-info {
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+
+  .step2 .step-info {
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 425px) {
+  .logo {
+    font-size: 28px;
+  }
+
+  .btn-consultation {
+    font-size: 12px;
+    padding: 6px 15px;
+    margin-top: 12px;
+  }
+
+
+}
 
 
 
